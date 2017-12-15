@@ -31,6 +31,8 @@ stepsByDayMedian <- median(stepsByDay$steps)
 stepsByDayMean
 stepsByDayMedian	
 ```
+![plot of chunk pic1](/pic1.png)
+
 
 ## What is the average daily activity pattern?
 ##### 1. Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
