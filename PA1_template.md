@@ -51,7 +51,9 @@ plot(IntervalSteps$interval, IntervalSteps$steps,
 	 
 IntervalSteps[IntervalSteps$steps == max(IntervalSteps$steps),]
 ```
+![plot of chunk pic2](/pic2.png)
 
+The 5-minute interval, on average across all the days in the data set, containing the maximum number of steps is 835.
 
 ## Imputing missing values
 ##### 1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
