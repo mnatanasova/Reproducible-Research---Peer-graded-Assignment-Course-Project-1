@@ -75,6 +75,8 @@ hist(stepsByDaynew$steps,
      main = "Total Number Of Steps Taken Each day")
 stepsByDayMeannew <- mean(stepsByDaynew$steps)
 stepsByDayMediannew <- median(stepsByDaynew$steps)
+stepsByDayMeannew
+stepsByDayMediannew
 ```
 * total number of missing value in the dataset is 2304
 
