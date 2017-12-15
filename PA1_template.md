@@ -53,7 +53,7 @@ IntervalSteps[IntervalSteps$steps == max(IntervalSteps$steps),]
 ```
 ![plot of chunk pic2](/pic2.png)
 
-The 5-minute interval, on average across all the days in the data set, containing the maximum number of steps is 835.
+* The 5-minute interval, on average across all the days in the data set, containing the maximum number of steps is 835.
 
 ## Imputing missing values
 ##### 1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
@@ -76,6 +76,12 @@ hist(stepsByDaynew$steps,
 stepsByDayMeannew <- mean(stepsByDaynew$steps)
 stepsByDayMediannew <- median(stepsByDaynew$steps)
 ```
+* total number of missing value in the dataset is 2304
+
+![plot of chunk pic3](/pic3.png)
+
+* mean 10766.19
+* median 10766.19
 
 ## Are there differences in activity patterns between weekdays and weekends?
 #### 1. Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
